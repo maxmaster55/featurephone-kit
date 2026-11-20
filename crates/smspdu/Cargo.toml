@@ -1,0 +1,16 @@
+[package]
+name = "smspdu"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+authors.workspace = true
+readme = "README.md"
+description = "SMS PDU encoder/decoder (3GPP TS 23.040/23.038): GSM 7-bit, UCS-2, concatenated messages (no_std + alloc)"
+keywords = ["sms", "pdu", "gsm", "modem", "no-std"]
+categories = ["no-std", "encoding", "parser-implementations"]
+
+[features]
+default = ["std"]
+std = []

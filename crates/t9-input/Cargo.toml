@@ -1,0 +1,16 @@
+[package]
+name = "t9-input"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+authors.workspace = true
+readme = "README.md"
+description = "T9 predictive and multi-tap keypad text input for feature phones and embedded devices (no_std + alloc)"
+keywords = ["t9", "multitap", "keypad", "feature-phone", "no-std"]
+categories = ["no-std", "text-processing", "embedded"]
+
+[features]
+default = ["std"]
+std = []

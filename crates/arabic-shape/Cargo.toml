@@ -1,0 +1,16 @@
+[package]
+name = "arabic-shape"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+authors.workspace = true
+readme = "README.md"
+description = "Arabic contextual shaping, lam-alef ligatures and a small bidi subset for bitmap-font renderers (no_std + alloc)"
+keywords = ["arabic", "shaping", "bidi", "rtl", "no-std"]
+categories = ["no-std", "text-processing", "internationalization"]
+
+[features]
+default = ["std"]
+std = []
