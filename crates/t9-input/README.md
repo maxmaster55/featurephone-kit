@@ -9,6 +9,8 @@ embedded devices. `no_std` + `alloc` (disable the default `std` feature).
 - `Dict`: one key press per letter, ranked completions.
 - No clock inside: you pass a millisecond timestamp, so it is trivial to test.
 
+<img src="https://raw.githubusercontent.com/maxmaster55/featurephone-kit/main/assets/t9-multitap.gif" width="640" alt="Keypad phone typing &quot;hello&quot; with multi-tap">
+
 ```rust
 use t9_input::{apply, Event, Key, Layout, Mode, MultiTap, Outcome};
 

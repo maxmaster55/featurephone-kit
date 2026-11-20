@@ -10,6 +10,8 @@ PDU mode. `no_std` + `alloc` (disable the default `std` feature).
 - `decode`: SMS-DELIVER and SMS-SUBMIT (7-bit, 8-bit, UCS-2, alphanumeric
   senders, 8/16-bit concatenation headers).
 
+<img src="../../assets/sms-pdu-anatomy.svg" width="760" alt="SMS-SUBMIT PDU fields, colour coded">
+
 ```rust
 let parts = smspdu::encode("+15555550123", "Hello [world] €5", 0);
 let back = smspdu::decode(&parts[0].hex).unwrap();

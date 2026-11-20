@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="469" viewBox="0 0 860 469" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13">
+<rect width="860" height="469" rx="12" fill="#0f172a"/>
+<text x="24" y="38" font-size="17" font-weight="600" fill="#e2e8f0">SMS-SUBMIT PDU anatomy</text>
+<text x="24" y="60" fill="#94a3b8">smspdu::encode("+15555550123", "Hello [world] €5", 0)  then AT+CMGS=31</text>
+<rect x="16" y="76" width="828" height="40" rx="8" fill="#1e293b" stroke="#334155"/>
+<text x="36.7" y="101" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#94a3b8">00</text>
+<text x="62.1" y="101" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#fbbf24">11</text>
+<text x="87.4" y="101" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#f87171">00</text>
+<text x="112.8" y="101" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#60a5fa">0B</text>
+<text x="138.2" y="101" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#60a5fa">91</text>
+<text x="163.6" y="101" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#60a5fa">51</text>
+<text x="188.9" y="101" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#60a5fa">55</text>
+<text x="214.3" y="101" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#60a5fa">55</text>
+<text x="239.7" y="101" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#60a5fa">05</text>
+<text x="265.1" y="101" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#60a5fa">21</text>
+<text x="290.4" y="101" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#60a5fa">F3</text>
+<text x="315.8" y="101" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#c084fc">00</text>
+<text x="341.2" y="101" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#f472b6">00</text>
+<text x="366.6" y="101" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#2dd4bf">AA</text>
+<text x="391.9" y="101" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#a3e635">13</text>
+<text x="417.3" y="101" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#fb923c">C8</text>
+<text x="442.7" y="101" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#fb923c">32</text>
+<text x="468.1" y="101" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#fb923c">9B</text>
+<text x="493.4" y="101" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#fb923c">FD</text>
+<text x="518.8" y="101" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#fb923c">06</text>
+<text x="544.2" y="101" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#fb923c">6D</text>
+<text x="569.6" y="101" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#fb923c">78</text>
+<text x="594.9" y="101" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#fb923c">F7</text>
+<text x="620.3" y="101" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#fb923c">B7</text>
+<text x="645.7" y="101" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#fb923c">9C</text>
+<text x="671.1" y="101" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#fb923c">4D</text>
+<text x="696.4" y="101" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#fb923c">DE</text>
+<text x="721.8" y="101" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#fb923c">F8</text>
+<text x="747.2" y="101" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#fb923c">40</text>
+<text x="772.6" y="101" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#fb923c">9B</text>
+<text x="797.9" y="101" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#fb923c">72</text>
+<text x="823.3" y="101" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#fb923c">0D</text>
+<rect x="24" y="133" width="6" height="18" rx="2" fill="#94a3b8"/>
+<text x="40" y="146" font-weight="600" fill="#e2e8f0">SMSC</text>
+<text x="140" y="146" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" fill="#94a3b8">00</text>
+<text x="380" y="146" fill="#94a3b8">service centre length 0: use the SIM&#x27;s SMSC</text>
+<rect x="24" y="160" width="6" height="18" rx="2" fill="#fbbf24"/>
+<text x="40" y="173" font-weight="600" fill="#e2e8f0">First octet</text>
+<text x="140" y="173" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" fill="#fbbf24">11</text>
+<text x="380" y="173" fill="#94a3b8">SMS-SUBMIT, relative validity period</text>
+<rect x="24" y="187" width="6" height="18" rx="2" fill="#f87171"/>
+<text x="40" y="200" font-weight="600" fill="#e2e8f0">MR</text>
+<text x="140" y="200" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" fill="#f87171">00</text>
+<text x="380" y="200" fill="#94a3b8">message reference</text>
+<rect x="24" y="214" width="6" height="18" rx="2" fill="#60a5fa"/>
+<text x="40" y="227" font-weight="600" fill="#e2e8f0">DA length</text>
+<text x="140" y="227" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" fill="#60a5fa">0B</text>
+<text x="380" y="227" fill="#94a3b8">11 digits in the destination address</text>
+<rect x="24" y="241" width="6" height="18" rx="2" fill="#60a5fa"/>
+<text x="40" y="254" font-weight="600" fill="#e2e8f0">DA type</text>
+<text x="140" y="254" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" fill="#60a5fa">91</text>
+<text x="380" y="254" fill="#94a3b8">international number (TON 1, ISDN plan)</text>
+<rect x="24" y="268" width="6" height="18" rx="2" fill="#60a5fa"/>
+<text x="40" y="281" font-weight="600" fill="#e2e8f0">DA digits</text>
+<text x="140" y="281" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" fill="#60a5fa">5155550521F3</text>
+<text x="380" y="281" fill="#94a3b8">swapped BCD, F pad: +15555550123</text>
+<rect x="24" y="295" width="6" height="18" rx="2" fill="#c084fc"/>
+<text x="40" y="308" font-weight="600" fill="#e2e8f0">PID</text>
+<text x="140" y="308" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" fill="#c084fc">00</text>
+<text x="380" y="308" fill="#94a3b8">protocol identifier: plain SMS</text>
+<rect x="24" y="322" width="6" height="18" rx="2" fill="#f472b6"/>
+<text x="40" y="335" font-weight="600" fill="#e2e8f0">DCS</text>
+<text x="140" y="335" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" fill="#f472b6">00</text>
+<text x="380" y="335" fill="#94a3b8">GSM 7-bit default alphabet</text>
+<rect x="24" y="349" width="6" height="18" rx="2" fill="#2dd4bf"/>
+<text x="40" y="362" font-weight="600" fill="#e2e8f0">VP</text>
+<text x="140" y="362" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" fill="#2dd4bf">AA</text>
+<text x="380" y="362" fill="#94a3b8">validity period: relative, 4 days</text>
+<rect x="24" y="376" width="6" height="18" rx="2" fill="#a3e635"/>
+<text x="40" y="389" font-weight="600" fill="#e2e8f0">UDL</text>
+<text x="140" y="389" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" fill="#a3e635">13</text>
+<text x="380" y="389" fill="#94a3b8">19 septets of user data</text>
+<rect x="24" y="403" width="6" height="18" rx="2" fill="#fb923c"/>
+<text x="40" y="416" font-weight="600" fill="#e2e8f0">UD</text>
+<text x="140" y="416" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" fill="#fb923c">C8329BFD066D78F7B79C4DDE…</text>
+<text x="380" y="416" fill="#94a3b8">17 octets of packed 7-bit text</text>
+<text x="24" y="449" font-size="12" fill="#94a3b8">19 septets for 16 characters: [ ] and € are escape pairs (ESC + code) from the GSM 7-bit extension table.</text>
+</svg>
